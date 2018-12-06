@@ -24,4 +24,4 @@ EXPOSE 8027 8037 8057
 
 # start a node with your 'config.json' file, this file must be external from a volume
 # For example:
-#   docker run -v <your config path>:/go-seele/config:ro -it go-seele node start -c /go-seele/config/configfile
+# docker run -v <your config path>/go-seele/cmd/node/config:/go-seele/config -it go-seele node start -c /go-seele/config/node1.json
